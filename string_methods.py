@@ -75,14 +75,14 @@ print(string.isnumeric())  # False
 
 
 # Returns a translation table to be used in translations
-mytable = string.maketrans("s", "P")
-print(string.translate(mytable))  # Ptring methodP ß
+my_table = string.maketrans("s", "P")
+print(string.translate(my_table))  # Ptring methodP ß
 
-# Returns a tuple where the string is parted into three parts from 1st occurence
+# Returns a tuple where the string is parted into three parts from 1st occurrence
 print(string.partition('string'))  # ('', 'string', ' methods ß')
 
 # Returns a string where a specified value is replaced with a specified value
-print(string.replace('m', 'b'))  # string bethods ß
+print(string.replace('m', 'b'))  # string methods ß
 
 # Searches the string for a specified value and returns the last position of where it was found
 print(string.rfind('ing'))  # 3
@@ -122,9 +122,9 @@ print(string.capitalize().swapcase())  # sTRING METHODS SS
 print(string.title())  # String Methods Ss
 
 # Returns a translated string
-mytable = string.maketrans("s", "P")
-print(mytable)  # {115: 80}
-print(string.translate(mytable))  # Ptring MethodP ß
+my_table = string.maketrans("s", "P")
+print(my_table)  # {115: 80}
+print(string.translate(my_table))  # Ptring MethodP ß
 
 # Fills the string with a specified number of 0 values at the beginning
 print("s".zfill(10))  # 000000000s
